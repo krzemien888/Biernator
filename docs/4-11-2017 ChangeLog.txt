@@ -1,0 +1,24 @@
+UI
+Zmiana ostatniego rzędu
+z |konwersja|=|+/-|
+na dwa rzędy
+|Konwersja|.|()|+/-|
+|=|
+Z rozwinieciem na odpowiednie długości
+|Konwersja| - 2
+|=| - 5
+Reszta szerokość 1
+
+Klasy:
+View - zamknięta klasa z interfejsem dla kontrollera
+ViewController - obsługuje zdarzenia wewnętrzne UI
+DataflowController - uruchomienie pobranych od fabryk parsera i algorytmu + zwrócenie wyniku do UI
+AlgoritmFactory - wyszukanie odpowiedniego algorytmu w zależności od operacji i argumentów
+ParserFacory - wyszukanie odpowiedniego parsera do testów pobranyh  od UI
+Algoritm - struktura klas reprezentująca algorytmy, klasy dziedziczne powinny obliczać wynik operacji i generować instację klasy stepView
+Parser - struktura klas reprezentująca parsery, klasy dziedziczne na podstawie testów powinny generować  instancje klasy Value
+Value - struktura klas reprezentująca wartości
+stepView - struktura klas reprezentujaca wynik algorytmu krok po kroku, klasa bazowa powinna posiadać metodę toString
+Application - klasa zamykająca aplikację
+Result - klasa przechowująca wynik  operacji, instancję stepView i instancję Notice do wyświetlenia użytkownikowi
+Notice - struktura klasa przechowująca informację do użytkownika
