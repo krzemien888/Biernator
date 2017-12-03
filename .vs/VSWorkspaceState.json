@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Biernator"
+    "\\BiernatorSrc",
+    "\\BiernatorSrc\\algorithms"
   ],
-  "SelectedNode": "\\docs",
+  "SelectedNode": "\\BiernatorSrc\\algorithms\\Algorithm.h",
   "PreviewInSolutionExplorer": false
 }
